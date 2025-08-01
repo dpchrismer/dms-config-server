@@ -1,0 +1,22 @@
+# General
+*.log
+*.tmp
+.DS_Store
+
+# Java
+*.class
+*.jar
+*.war
+
+# Gradle
+.gradle/
+build/
+gradle/
+*.lock
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.iml

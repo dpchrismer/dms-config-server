@@ -1,0 +1,22 @@
+server:
+    port: 8888
+spring:
+  application:
+    name: dms-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dpchrismer/dms-config.git
+          default-label: main
+          search-paths: dms-config
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
