@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/dpchrismer/dms-config.git
-          default-label: main
-          search-paths: dms-config
+          default-label: master
+          search-paths: .
 management:
   endpoints:
     web:
