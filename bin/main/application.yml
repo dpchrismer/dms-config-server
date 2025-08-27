@@ -10,6 +10,9 @@ spring:
           uri: https://github.com/dpchrismer/dms-config.git
           default-label: master
           search-paths: .
+          force-pull: true
+          username: dpchrismer
+          password: 1OXzTFYJQ24nj%3t
 management:
   endpoints:
     web:
